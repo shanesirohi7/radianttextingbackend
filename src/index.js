@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://radiantbeta.vercel.app/",
+    origin: "https://radiantbeta.vercel.app",
     credentials: true,
   })
 );
