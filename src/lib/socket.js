@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://radianttextingbackend.onrender.com"],
+    origin: ["https://radiantbeta.vercel.app"],
   },
 });
 
